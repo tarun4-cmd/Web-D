@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Intro To HTML</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+ </head>
+ <body>
+     <nav>
+        <a href="/">Home </a>|
+        <a href="/contact">Contact </a>|
+        <a href="/about">About </a>|
+        <a href="/project">Project </a>
+     </nav>
+ <h1>Student registration form</h1>
+<form>
+     <label for="fname">First name:</label><br>
+     <input type="text" id=="fname" name="fname"><br>
+     <label for="lname">Last name:</label><br>
+     <input type="text" id="lname" name="lname"><br>
+     <br><br>
+     <label for="dob">DOB:</label><br>
+     <input type="date" id="dob" name="dob"
+       value="22-03-2001"
+       min="01-01-1990" max="01-01-2020"><br>
+     <br><br>
+     <label for="father">Father's name:</label><br>
+     <input type="text" id=="father" name="father"><br>
+     <br>
+     <label for="doc">Document:</label><br>
+     <input type="radio" id="Adhaar" name="doc" value="Adhaar">
+     <label for="Adhaar">Adhaar</label><br>
+     <input type="radio" id="Driving License" name="doc" value="Driving License">
+     <label for="Driving License">Driving License</label><br>
+     <input type="radio" id="Other" name="doc" value="Other">
+     <label for="Other">Other</label><br>
+     <br><br>
+     <label for="Gender">Gender:</label>
+     <select name="Gender" id="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+     </select>
+     <br><br>
+     <label for="description">Description:</label><br>
+     <textarea id="w3review" name="description" rows="4" cols="50"></textarea><br>
+     <br><br>
+     <input type="checkbox" id="Confirm" name="Confirm">
+     <label for="Confirm">Confirm</label><br>
+     <input type="submit" value="Submit">
+     <br><br>
+<footer>
+    <div>
+        <label for="made">Made By Geekhaven</label>
+        <i class="fa fa-address-book" aria-hidden="true"></i>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+    </div>
+</footer>
+ </form>
+ </body>
+</html>
